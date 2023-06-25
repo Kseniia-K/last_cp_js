@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    gap: 30px;
+    background-color: black;
+}
+.block {
+    width: auto;
+    margin-top: 80px;
+    padding: 30px;
+    background-color: lightblue;
+    border-radius: 10px;
+    color: black;
+}
+.tdWidth  {
+    width: 200px;
+}
+td {
+    text-align: center;
+}
+th {
+    padding: 15px;
+    font-size: 20px;
+}
+select {
+    padding: 2px;
+}
+.words {
+    width: 410px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+    gap: 10px;
+    color: white;
+    border: 1px white dotted;
+    border-radius: 10px;
+}
